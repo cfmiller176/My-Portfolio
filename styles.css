@@ -1,0 +1,160 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    
+    background-color: #dcffdc;
+    color:darkgreen;
+    font-family:'antic slab',serif;
+    
+}
+ul,ol {
+    padding-left:25px;
+}
+ul {
+    list-style-type: disc;
+
+}
+
+ol {
+    
+    list-style-type:circle ;
+}
+
+h1 {
+    font-family:'Gloria Hallelujah',cursive;
+    text-align: center;
+    text-decoration: underline;
+  
+
+}
+
+
+.header-nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.heading-container {
+    display:flex;
+    justify-content:space-evenly;
+   
+    
+}
+
+ul {
+    padding-left:25px;
+
+}
+
+p {
+    padding:10px;
+    
+
+}
+
+header {
+    background-color: white;
+}
+
+
+
+[type=text],[type=email],[type=tel] {
+    padding:5px;
+}
+
+   
+
+.flex-item {
+    width:50%;
+    
+
+}
+
+.flex-container {
+    display:flex; 
+    
+    /*issue is here */
+}
+        
+.custom-container {
+    display:inline-block;
+    background-color:lightskyblue;
+    width: 50%;
+    
+
+
+}
+
+.logo {
+    color:black;
+    
+    text-decoration:none;
+    margin-left: 25px;
+    font-size: 32px;
+    font-weight:bold;
+    margin:25px 0 25px 25px;
+    justify-items: center;
+ 
+    
+}
+
+
+.header-nav-menu {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly
+    
+    
+
+
+}
+
+.header-menu-item {
+    margin-right: 40px;
+    text-decoration: none;
+    color:black;
+
+    
+    
+}
+
+.header-menu-item a {
+    
+    text-decoration: none;
+    color:black;
+    
+    
+    
+}
+
+
+.introduction {
+    font-size: 25px;
+    text-align: center;
+    color:rgb(30, 30, 30);
+}
+
+.profile {
+    background-color: white;
+   
+    
+
+}
+
+.profile-description {
+    color:rgb(30, 30, 30);
+
+}
+
+
