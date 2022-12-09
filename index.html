@@ -13,15 +13,18 @@
 <body>
 
     <header>
+       
         
         <nav class="header-nav">
           
-            <a href="#" class="logo">Carolynn F. Schluter</a> 
+            <a href="#" class="logo">Miriam C. OShee</a> 
 
             <ul class="header-nav-menu">
 
-            <li class="header-menu-item"><a href="#">Home</a></li>
-            <li class="header-menu-item"><a href="#skills">Skills</a></li>
+            <li class="header-menu-item">
+            <a href="#">Home</a></li>
+            <li class="header-menu-item">
+            <a href="#skills">Skills</a></li>
             <li class="header-menu-item"><a href="#projects">Projects</a></li>
             <li class="header-menu-item"><a href="./blog.html">Blog</a></li>
             <li class="header-menu-item"><a href="#testimonals">Testimonals</a></li>
@@ -33,19 +36,11 @@
     </header>
 
     
-    <h1>Carolynn F. Schluter</h1>
+    <h1>Miriam C. Oshee</h1>
 
- <!--
-  <div class="flex-container">
-    <div class="flex-item"> 
-<div class="custom-container"> First</div>
-</div>
-    
-    <div class="flex-item">
-<div class="custom-container">Second</div>
-  </div>
-  <div class="custom-container">External</div>
-  -->
+ 
+  
+  
 
 
 
@@ -53,42 +48,47 @@
 
 
 
-
+<section>
 <p class="introduction"> 
-    Hi, I am <strong> Carol Schluter </strong> Full stack web developer <em>from Texas </em>
+    Hi, I am <strong> Miriam Oshee </strong> Full stack web developer <em>from Texas </em>
 </p>
+<img
+src="./woman.avif"
+
+class="profile-image"
+alt="Miriam Oshee profile picture."/>
+
+</section>
 
 
 
-<!--
-<img src="./images/photo-1508317469940-e3de49ba902e.avif" 
-alt="carol profile picture">-->
 
 
-
-
-<section class="profile">
+<section class="profile bg-dark">
     <h2>My Profile</h2>
-    <p class="profile-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et recusandae ex atque cumque, dignissimos architecto nihil ducimus? Exercitationem ex magni iusto nobis eius numquam eos aperiam totam delectus labore reiciendis blanditiis quis illo omnis ad, suscipit cumque consequatur, mollitia perspiciatis ipsum laborum deleniti dignissimos! Quia molestiae sunt ex voluptatibus!</p>
+    <p class="profile-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et recusandae ex atque cumque, dignissimos architecto nihil ducimus? Exercitationem ex magni iusto nobis eius numquam eos  molestiae sunt ex voluptatibus!</p>
 
 </section>
 
 
 <section id="skills">
     <h2>My Skills</h2>
+    <div class="multi-column-container">
+        <p class="three-column-item">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+<p class="three-column-item">Minus ratione dolor, tempora nobis eum adipisci.</p>
+<p class="three-column-item">Quaerat ab asperiores commodi dolorum, obcaecati aliquid.</p>
+    </div>
    
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-<p>Minus ratione dolor, tempora nobis eum adipisci.</p>
-<p>Quaerat ab asperiores commodi dolorum, obcaecati aliquid.</p>
 
 </section>
 
 
-<section id="projects">
+<section id="projects" class="bg-dark">
     <h2>My Recent Work </h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-<p>Minus ratione dolor, tempora nobis eum adipisci.</p>
-<p>Quaerat ab asperiores commodi dolorum, obcaecati aliquid.</p>
+    <div class="multi-column-container">
+        <p class="three-column-item light">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+<p class="three-column-item light">Minus ratione dolor, tempora nobis eum adipisci.</p>
+<p class="three-column-item light">Quaerat ab asperiores commodi dolorum, obcaecati aliquid.</p>
 
 </section>
 
@@ -96,9 +96,10 @@ alt="carol profile picture">-->
 
         <h2>Testimonials</h2>
 
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-<p>Minus ratione dolor, tempora nobis eum adipisci.</p>
-<p>Quaerat ab asperiores commodi dolorum, obcaecati aliquid.</p>
+        <div class="multi-column-container">
+            <p class="three-column-item light">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+    <p class="three-column-item light">Minus ratione dolor, tempora nobis eum adipisci.</p>
+    <p class="three-column-item light">Quaerat ab asperiores commodi dolorum, obcaecati aliquid.</p>
 
 </section>
 
@@ -111,16 +112,18 @@ alt="carol profile picture">-->
 
 </p>
 <!--beginning of contact form -->
-<section>
+<section class="bg-dark">
     <h2>Contact </h2>
 
     <form action="#" method="GET">
+        <section>
         <div class="form-row">
     <label for="name">
-        First Name:
+        First Name:</label>
         <input type="text" name="name" id="name" required placeholder="Your name">
-    </label>
-    </div>
+    </section>
+    
+    <section>
     <div class="form-row">
     <label>
     
@@ -131,7 +134,8 @@ alt="carol profile picture">-->
 
     
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder=" Email">
+        <input type="email" name="email" id="email" placeholder="Email"
+        required>
         </form>
 
      
@@ -149,39 +153,25 @@ alt="carol profile picture">-->
 
 <section>
     <input type="submit" value="Send">
-    
-    
-
+</form>
+       
 </section>
 
 
 
-<ul>
-    <li>Location: Mansfield,TX</li>
-    <li>Mobile 817-988-1424</li>
-    <li>E-mail:cfmiller176@gmail.com</li>
-    <li>Github:carol-c-schluter</li>  <!--made up-->
-    <li>Social Sites
+
     
 
 
 
 
-        <ol>
-            <li>Twitter:</li>
-            <li>Facebook</li>
-            <li>Instagram</li>
 
-
-
-
-
-        </ol>
-        </li>
+       
     
-</ul>
+    
 
-<footer>
+
+<footer class="bg-dark">
 Coyright &copy; 2022 Carolynn F Schluter
 
 </footer>

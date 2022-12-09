@@ -6,155 +6,143 @@
 
 html {
     font-size: 25px;
+    
 }
 
 body {
     
-    background-color: #dcffdc;
-    color:darkgreen;
-    font-family:'antic slab',serif;
     
+    color:darkgreen;
+       font-family: 'Antic Slab', serif;
 }
+
+
+
+
+h1,h2 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah',cursive;
+     
+}
+h1 {
+    font-size:3rem;
+   
+
+
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+[type=text],
+[type=email] {
+    padding:0.25rem;
+}
+.bg-dark {
+    color:white;
+    background-color:darkgreen;
+}
+   
+    
+.logo {
+    color:black;
+        text-decoration:none;
+        font-size: 1.25rem;
+    font-weight:bold;
+    margin:1rem 0 1rem 1rem;
+    justify-items: center;
+}
+.header-nav-menu {
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+  
+}
+.header-menu-item {
+    margin-right: 1.5rem;
+}
+
+
+
+.header-nav {
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-menu-item a {
+    
+    text-decoration: none;
+    color:black;
+    margin-right: 40px;
+}
+
+
+
+
 ul,ol {
     padding-left:25px;
 }
 ul {
-    list-style-type: disc;
-
+    list-style-type: square;
+    
 }
+
 
 ol {
     
-    list-style-type:circle ;
+    list-style-type: decimal;
 }
-
-h1 {
-    font-family:'Gloria Hallelujah',cursive;
-    text-align: center;
-    text-decoration: underline;
-  
-
-}
-
-
-.header-nav {
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-}
-
-.heading-container {
-    display:flex;
-    justify-content:space-evenly;
-   
-    
-}
-
-ul {
-    padding-left:25px;
-
-}
-
 p {
-    padding:10px;
-    
-
+    padding:0.4rem;
 }
+
 
 header {
     background-color: white;
 }
 
-
-
-[type=text],[type=email],[type=tel] {
-    padding:5px;
-}
-
-   
-
-.flex-item {
-    width:50%;
-    
-
-}
-
-.flex-container {
-    display:flex; 
-    
-    /*issue is here */
-}
-        
-.custom-container {
-    display:inline-block;
-    background-color:lightskyblue;
-    width: 50%;
-    
-
-
-}
-
-.logo {
-    color:black;
-    
-    text-decoration:none;
-    margin-left: 25px;
-    font-size: 32px;
-    font-weight:bold;
-    margin:25px 0 25px 25px;
-    justify-items: center;
  
     
-}
-
-
-.header-nav-menu {
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    display: flex;
-    justify-content:space-evenly
-    
-    
-
-
-}
-
-.header-menu-item {
-    margin-right: 40px;
-    text-decoration: none;
-    color:black;
-
-    
-    
-}
-
-.header-menu-item a {
-    
-    text-decoration: none;
-    color:black;
-    
-    
-    
-}
-
-
+  
 .introduction {
-    font-size: 25px;
     text-align: center;
     color:rgb(30, 30, 30);
-}
-
-.profile {
-    background-color: white;
-   
     
+}
+
+.profile-image {
+    width: 230px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50%;
+
+}
+.multi-column-container {
+    display: flex;
+}
+
+.three-column-item {
+    width: calc(100% / 3 -10px);
+    margin: 50px 5px;
+    border: 5px solid darkgreen;
+    border-radius:15px;
+
 
 }
 
-.profile-description {
-    color:rgb(30, 30, 30);
-
+.three-column-item.light {
+background-color:white;
+color:darkgreen;
 }
 
-
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
